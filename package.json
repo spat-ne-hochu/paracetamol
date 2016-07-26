@@ -1,0 +1,29 @@
+{
+  "name": "paracetamol",
+  "version": "0.0.1",
+  "description": "validate type and value of function parameters",
+  "main": "index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spat-ne-hochu/paracetamol.git"
+  },
+  "keywords": [
+    "validate",
+    "assert",
+    "type",
+    "params",
+    "utils"
+  ],
+  "author": "spat.ne.hochu <spat.ne.hochu@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spat-ne-hochu/paracetamol/issues"
+  },
+  "homepage": "https://github.com/spat-ne-hochu/paracetamol#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
+}
