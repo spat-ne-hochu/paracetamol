@@ -16,14 +16,26 @@ Store.setMethod($p, 'Undef');
 /** @typedef {ChainObject} $p.Bool */
 Store.setMethod($p, 'Bool');
 
-/** @typedef {ChainObject} $p.Number */
+/** @typedef {Number} $p.Number */
 Store.setMethod($p, 'Number');
 
-/** @typedef {ChainObject} $p.String */
+/** @typedef {String} $p.String */
 Store.setMethod($p, 'String');
 
-/** @typedef {ChainObject} $p.Numeric */
+/** @typedef {Numeric} $p.Numeric */
 Store.setMethod($p, 'Numeric');
+
+/** @typedef {positive} $p.positive */
+Store.setMethod($p, 'positive');
+
+/** @typedef {negative} $p.negative */
+Store.setMethod($p, 'negative');
+
+/** @typedef {int} $p.int */
+Store.setMethod($p, 'int');
+
+/** @typedef {float} $p.float */
+Store.setMethod($p, 'float');
 
 /** @typedef {ChainObject} $p.Symbol */
 Store.setMethod($p, 'Symbol');
