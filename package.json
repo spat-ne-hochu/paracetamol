@@ -1,7 +1,7 @@
 {
   "name": "paracetamol",
-  "version": "0.0.1",
-  "description": "validate type and value of function parameters",
+  "version": "0.7.1",
+  "description": "declarative check type of function arguments and development profiler for your functions",
   "main": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,11 +11,22 @@
     "url": "git+https://github.com/spat-ne-hochu/paracetamol.git"
   },
   "keywords": [
-    "validate",
+    "types",
+    "typescript",
+    "check",
+    "check type",
     "assert",
-    "type",
-    "params",
-    "utils"
+    "validate",
+    "run-time",
+    "arguments",
+    "parametres",
+    "validation",
+    "types function",
+    "profile function",
+    "profile",
+    "time profiling",
+    "memory profiling",
+    "calls history"
   ],
   "author": "spat.ne.hochu <spat.ne.hochu@gmail.com>",
   "license": "ISC",
