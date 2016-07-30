@@ -1,5 +1,5 @@
 ### Version
-Current pre-alpha 0.7.1
+Current pre-alpha 0.7.2
 **Release is pre-alpha**
 
 ### Install
@@ -122,4 +122,18 @@ list of every call:
     52ms    812ns    568            (2 ,15 ,16) => 1.7668470647783843e+72
 ```
 
+### Release Notes:
+**0.0.1:**
++ Initial work concept
 
+**0.7.1:**
++ Initial modular build: declarations factory (store), assert library,
+  $p main function, definer, main point
++ Api: Basic types: `Number`, `String`, `Symbol`, `Bool`, `Array`, 
+  `Object`, `Function`, `Null`, `Undef` 
++ Api: Type classes: `Complex`, `Scalar`, `Any`, `Defined`, `Countable`)
+
+**0.7.2**
++ Api: Add new type class `Numeric`
++ Api: Numeric asserts types: `int`, `float`, `positive`, `negative`
++ Testing chained calling declarations `$p.Numeric.int.positive(5);`
