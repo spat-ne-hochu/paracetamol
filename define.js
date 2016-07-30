@@ -30,19 +30,19 @@ Store.define('Defined', _.isDefined, []);
 Store.define('Undef', _.isUndefined, []);
 
 /**
- * @typedef {ChainObject} Number
+ * @typedef {(ChainObject|{int, float, positive, negative})} Number
  */
-Store.define('Number',  _.isNumber, []);
+Store.define('Number',  _.isNumber, ['int', 'float', 'positive', 'negative']);
 
 /**
- * @typedef {ChainObject} String
+ * @typedef {(ChainObject|{int, float, positive, negative})} String
  */
-Store.define('String',  _.isString, []);
+Store.define('String',  _.isString, ['int', 'float', 'positive', 'negative']);
 
 /**
- * @typedef {ChainObject} Numeric
+ * @typedef {(ChainObject|{int, float, positive, negative})} Numeric
  */
-Store.define('Numeric', _.numeric, []);
+Store.define('Numeric', _.numeric, ['int', 'float', 'positive', 'negative']);
 
 /**
  * @typedef {ChainObject} Symbol
@@ -88,4 +88,24 @@ Store.define('Complex',  _.isComplex, []);
  * @typedef {ChainObject} Countable
  */
 Store.define('Countable',  _.isCountable, []);
+
+/**
+ * @typedef {(ChainObject|{int, float})} positive
+ */
+Store.define('positive',  _.isPositive, ['int', 'float']);
+
+/**
+ * @typedef {(ChainObject|{int, float})} negative
+ */
+Store.define('negative',  _.isNegative, ['int', 'float']);
+
+/**
+ * @typedef {(ChainObject|{positive, negative})} int
+ */
+Store.define('int',  _.isInteger, ['positive', 'negative']);
+
+/**
+ * @typedef {(ChainObject|{positive, negative})} float
+ */
+Store.define('float',  _.isFloat, ['positive', 'negative']);
 
