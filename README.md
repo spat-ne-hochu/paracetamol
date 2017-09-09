@@ -4,7 +4,7 @@ Current pre-alpha 0.7.2
 
 ### Install
 ```bash
-> npm i -S paracetamol
+> npm i --save paracetamol
 ```
 
 ### About
